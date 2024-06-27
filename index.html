@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced JS Lab 308A.5</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <h1>Secondhand Instruments</h1>
+        <img
+          id="instrument-image"
+          src="images/instruments.jpg"
+          alt="instruments"
+        />
+      </div>
+      <div class="introduction">
+        <p>
+          Welcome to the secondhand instrument donation site, where we recognize
+          the importance of music education, especially in a public school
+          setting, and try to get as many no longer used instruments into the
+          hands of students who need them. This website is inspired by my
+          wonderful mother, Margaret. She is so giving and always thinking of
+          others. She is constantly looking for or thrifting instruments that
+          maybe just need a little fixing up. She does this because my brother
+          is a public school music teacher in Vermont, and his wife, my
+          sister-in-law is a music therapist. With two musicians in our family
+          who know of lots of students in need of instruments, it is wonderful
+          to help support those interested in studying music.
+        </p>
+      </div>
+      <div id="donation-forms">
+        <div class="checkboxes">
+          <br />
+          <label for="banjo-checkbox" class="checkbox">
+            <input type="checkbox" name="checkbox1" id="banjo-checkbox" />Banjo
+          </label>
+          <br />
+          <label for="cello-checkbox" class="checkbox">
+            <input type="checkbox" name="checkbox2" id="cello-checkbox" />Cello
+          </label>
+          <br />
+          <label for="clarinet-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox3"
+              id="clarinet-checkbox"
+            />Clarinet
+          </label>
+          <br />
+          <label for="drum-checkbox" class="checkbox">
+            <input type="checkbox" name="checkbox4" id="drum-checkbox" />Drums
+            (kit or single)
+          </label>
+          <br />
+          <label for="flute-checkbox" class="checkbox">
+            <input type="checkbox" name="checkbox5" id="flute-checkbox" />Flute
+          </label>
+          <br />
+          <label for="guitar-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox6"
+              id="guitar-checkbox"
+            />Guitar
+          </label>
+          <br />
+          <label for="harmonica-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox7"
+              id="harmonica-checkbox"
+            />Harmonica
+          </label>
+          <br />
+          <label for="oboe-checkbox" class="checkbox">
+            <input type="checkbox" name="checkbox8" id="oboe-checkbox" />Oboe
+          </label>
+          <br />
+          <label for="recorder-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox9"
+              id="recorder-checkbox"
+            />Recorder
+          </label>
+          <br />
+          <label for="saxophone-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox10"
+              id="saxophone-checkbox"
+            />Saxophone
+          </label>
+          <br />
+          <label for="tambourine-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox11"
+              id="tambourine-checkbox"
+            />Tambourine
+          </label>
+          <br />
+          <label for="trumpet-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox12"
+              id="trumpet-checkbox"
+            />Trumpet
+          </label>
+          <br />
+          <label for="violin-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox13"
+              id="violin-checkbox"
+            />Violin
+          </label>
+          <br />
+          <label for="xylophone-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox14"
+              id="xylophone-checkbox"
+            />Xylophone
+          </label>
+          <br />
+          <label for="other-checkbox" class="checkbox">
+            <input
+              type="checkbox"
+              name="checkbox15"
+              id="other-checkbox"
+            />Other:
+          </label>
+          <br />
+          <textarea
+            id="other-explanation"
+            cols="20"
+            rows="10"
+            placeholder="Tell us what other instruments you are donating"
+          ></textarea>
+          <br />
+        </div>
+        <form id="contact-info">
+          <input
+            type="text"
+            id="name"
+            class="full-name"
+            name="name"
+            placeholder="Name"
+          />
+          <br />
+          <!-- HTML required attribute -->
+          <input
+            type="tel"
+            class="phone-number"
+            name="number"
+            placeholder="Telephone"
+            required
+          />
+          <br />
+          <input type="email" class="email" name="email" placeholder="Email" />
+          <br />
+          <textarea
+            id="story"
+            cols="30"
+            rows="15"
+            placeholder="Tell us the story of your instrument and why you are donating it!"
+          ></textarea>
+          <br />
+          <button class="button" id="button" type="submit">Submit</button>
+          <br />
+          <h2 id="thanks">Thanks!</h2>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
